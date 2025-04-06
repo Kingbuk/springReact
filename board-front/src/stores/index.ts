@@ -1,5 +1,6 @@
 import useLoginUserStore from './login.user.store'
-import BoardStore from './board.store';
+import useBoardStore from './board.store';
 export {
+    useBoardStore,
     useLoginUserStore
 }

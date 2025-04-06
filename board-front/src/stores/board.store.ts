@@ -19,3 +19,6 @@ const useBoardStore = create<BoardStore>(set=>({
     setBoardImageFileList : (boardImageFileList => set(state=>({...state, boardImageFileList}))),
     resetBoard : () => set(state => ({...state, title:'', content : '', boardImageFileList : []}))
 }))
+
+
+export default useBoardStore;
